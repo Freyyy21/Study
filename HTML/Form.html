@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            Nama Depan : <input type="text"><br>
+            Nama Belakang : <input type="text"><br>
+            Password : <input type="password"><br>
+
+            <h4>WNI : (Radio Button)</h4>
+            <input type="radio" name="WNI" value="ya" id="ya"><label for="ya">ya</label>
+            <input type="radio" name="WNI" value="tidak" id="tidak"><label for="tidak">tidak</label>
+
+            <h4>Musik favorit: (CheckBox)</h4>
+            <input type="checkbox" name="Pop"><label for="Pop">pop</label><br>
+            <input type="checkbox" name="Hindie"><label for="Hindie">hindie</label><br>
+            <input type="checkbox" name="Rock"><label for="Rock">rock</label><br>
+
+            <h4>Dropdown List</h4>
+            <select name="Mahasiswa asal">
+                <option value="UMM">UMM</option>
+                <option value="UB">UB</option>
+                <option value="UM">UM</option>
+            </select><br>
+
+            <h4>Input type file</h4>
+            <input type="file" name="foto" value="upload_foto">
+
+            <input type="Button" name="Submit" value="Submit"> 
+        </form>
+
+        <!-- atribut name: key saat dikirim(submit) -->
+         <!-- atribut value: pasangan dari key(nilai) -->
+
+         <!-- 
+📌 DAFTAR INPUT TYPE HTML DAN FUNGSINYA
+-->
+
+<!-- 
+1. text 
+   - Input teks satu baris (default)
+-->
+<input type="text">
+
+<!-- 
+2. password 
+   - Input teks tersembunyi (karakter ditampilkan sebagai titik/bintang)
+-->
+<input type="password">
+
+<!-- 
+3. email 
+   - Input untuk alamat email, divalidasi sesuai format email
+-->
+<input type="email">
+
+<!-- 
+4. number 
+   - Input angka, bisa naik-turun dengan panah
+-->
+<input type="number">
+
+<!-- 
+5. tel 
+   - Input untuk nomor telepon, tanpa validasi otomatis
+-->
+<input type="tel">
+
+<!-- 
+6. url 
+   - Input untuk alamat URL/website
+-->
+<input type="url">
+
+<!-- 
+7. search 
+   - Input untuk pencarian (mirip text, tapi bisa punya tombol clear)
+-->
+<input type="search">
+
+<!-- 
+8. checkbox 
+   - Input kotak centang (boleh pilih lebih dari satu)
+-->
+<input type="checkbox">
+
+<!-- 
+9. radio 
+   - Input tombol bulat (hanya bisa pilih satu dalam satu grup "name")
+-->
+<input type="radio">
+
+<!-- 
+10. file 
+   - Input untuk upload file dari komputer
+-->
+<input type="file">
+
+<!-- 
+11. hidden 
+   - Input tersembunyi, digunakan untuk menyimpan data yang tidak ditampilkan
+-->
+<input type="hidden">
+
+<!-- 
+12. submit 
+   - Tombol untuk mengirim form
+-->
+<input type="submit">
+
+<!-- 
+13. reset 
+   - Tombol untuk mereset form ke nilai awal
+-->
+<input type="reset">
+
+<!-- 
+14. button 
+   - Tombol biasa (biasanya digunakan dengan JavaScript)
+-->
+<input type="button">
+
+<!-- 
+15. date 
+   - Input untuk memilih tanggal
+-->
+<input type="date">
+
+<!-- 
+16. time 
+   - Input untuk memilih waktu (jam dan menit)
+-->
+<input type="time">
+
+<!-- 
+17. datetime-local 
+   - Input untuk memilih tanggal dan waktu (tanpa zona waktu)
+-->
+<input type="datetime-local">
+
+<!-- 
+18. month 
+   - Input untuk memilih bulan dan tahun
+-->
+<input type="month">
+
+<!-- 
+19. week 
+   - Input untuk memilih minggu dalam tahun
+-->
+<input type="week">
+
+<!-- 
+20. range 
+   - Input slider (nilai dalam rentang tertentu)
+-->
+<input type="range">
+
+<!-- 
+21. color 
+   - Input untuk memilih warna dari color picker
+-->
+<input type="color">
+
+    </body>
+</html>
