@@ -1,0 +1,39 @@
+/* Universal Selector */
+*{
+    font-family: 'Courier New';
+}
+
+/* Type Selector */
+h3{
+    color: brown;
+}
+
+/* Class Selector */
+li.MenuPagiSenin{
+    color: blue;
+}
+
+/* Id Selector */
+#MenuPagiSelasa{
+    color: blueviolet;
+}
+
+/* Child Selector */
+h1>i{
+    color: darkblue;
+}
+
+/* Decendant Selector */
+p i{
+    color: red;
+}
+
+/* Adjacent Sibling Selector */
+ul+h4{
+    color: darkmagenta;
+}
+
+/* General Sibling Selector */
+h5~ol{
+    color: deeppink;
+}

@@ -1,0 +1,22 @@
+ h1{
+    color: darkblue;
+                font-size: 140px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            p{
+                color: aqua;
+                font-size: 40px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            b{
+                color:blueviolet;
+            }
+            i{
+                color: brown;
+            }
+            .contoh_class{
+                color: red;
+            }
+            #contoh_id{
+                color: blue;
+            }
