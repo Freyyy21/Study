@@ -1,0 +1,26 @@
+*{
+    font-family: 'Times New Roman';
+}
+
+/* Last Rules */
+b{
+    color: red;
+}
+
+b{
+    color: blue; /* Akan mengambil yg terakhir */
+}
+
+/* Spesific Rules */
+i{
+    color: red;
+}
+
+p i{
+    color: cadetblue;
+}
+
+p i{
+    color: darkgoldenrod !important;
+}
+
