@@ -13,14 +13,14 @@ b{
 
 /* Spesific Rules */
 i{
-    color: red;
+    color: red; /* level 1*/
 }
 
 p i{
-    color: cadetblue;
+    color: cadetblue; /* level 2*/
 }
 
 p i{
-    color: darkgoldenrod !important;
+    color: darkgoldenrod !important; /* level 3*/
 }
 
