@@ -8,9 +8,16 @@
         <!-- Table Header <th> (isian data otomatis bold)-->
         <!-- Table Rows <tr> (pembungkus baris) -->
         <!-- Table Data <td> (isian data)-->
+        <!-- Judul tabel <caption> -->
+        <!-- Mengelompokkan kolom untuk distyling <colgroup> -->
         
         <table border = "1">
+            <colgroup>
+                <col span="1" style="background-color: red">
+                <col span="2" style="background-color: blue;">
+            </colgroup>
             <tr>
+                <caption>Jadwal</caption> 
                 <th>Senin</th>
                 <th>Selasa</th>
                 <th>Rabu</th>
@@ -28,5 +35,44 @@
                 <td rowspan="2"> 21.00 </td>
             </tr>
         </table>
+
+        <table border="1">
+  <caption>Penjualan Bulanan</caption>
+
+  <colgroup>
+    <col span="1" style="background-color: #eee;">
+    <col span="2">
+  </colgroup>
+
+  <thead>
+    <tr>
+      <th>Bulan</th>
+      <th>Produk A</th>
+      <th>Produk B</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Januari</td>
+      <td>100</td>
+      <td>150</td>
+    </tr>
+    <tr>
+      <td>Februari</td>
+      <td>120</td>
+      <td>130</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td>220</td>
+      <td>280</td>
+    </tr>
+  </tfoot>
+</table>
+
     </body>
 </html>
